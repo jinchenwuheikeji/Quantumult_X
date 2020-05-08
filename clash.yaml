@@ -146,7 +146,7 @@ Proxy Group:
 - name: "自动节点选择"
   type: url-test
   proxies:
-    - "V2ray节点的主机测试"
+    - "阿里云新加坡"
     - "Trojan节点的主机测试"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
@@ -156,7 +156,7 @@ Proxy Group:
   type: select
   proxies:
     - "自动节点选择"
-    - "V2ray节点的主机测试"
+    - "阿里云新加坡"
     - "Trojan节点的主机测试"
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
@@ -175,14 +175,14 @@ Proxy Group:
   type: select
   proxies:
     - "PROXY"
-    - "V2ray节点的主机测试"
+    - "阿里云新加坡"
     - "Trojan节点的主机测试"
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
-    - "V2ray节点的主机测试"
+    - "阿里云新加坡"
     - "Trojan节点的主机测试"
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
