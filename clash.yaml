@@ -118,17 +118,17 @@ Proxy:
 
 
 # 配置开始
-- name: "V2ray节点的主机测试"
+- name: "阿里云新加坡"
   type: vmess
-  server: v2rayssr.com
-  port: 443
-  uuid: 5b8098e0-c95d-4c74-b5d5-4a330969c8cb
-  alterId: 2
+  server: 161.117.35.228
+  port: 55555
+  uuid: 210a828e-0bfb-42ad-a9f8-4bd7b8109062
+  alterId: 233
   cipher: auto
   tls: true
   network: ws
   ws-path: /v2rayssrcom/
-  Host: v2rayssr.com
+  Host: 161.117.35.228
 
 - name: "Trojan节点的主机测试"
   type: trojan
