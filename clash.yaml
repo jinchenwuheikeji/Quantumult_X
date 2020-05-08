@@ -127,8 +127,7 @@ Proxy:
   cipher: auto
   tls: true
   network: ws
-  ws-path: /v2rayssrcom/
-  Host: 161.117.35.228
+ 
 
 - name: "Trojan节点的主机测试"
   type: trojan
