@@ -18,11 +18,15 @@ https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/dianshiji
 #腾讯新闻
 
 [task_local]
+
  0 9 * * * txnews.js, tag=腾讯新闻
  
 [rewrite_local]
+
 https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? url script-request-body txnews.js
     
 [MITM]
+
 hostname = api.inews.qq.com
 
+远程脚本地址：https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/txnews.js
