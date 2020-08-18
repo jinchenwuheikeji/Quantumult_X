@@ -10,3 +10,7 @@
 
 http:\/\/api\.gaoqingdianshi\.com\/api\/v5\/sign\/signin url script-request-header dianshijia.js
 http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal url script-request-header dianshijia.js
+
+#远程脚本路径：
+
+https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/dianshijia.js
