@@ -46,3 +46,11 @@ https:\/\/u\.y\.qq\.com\/cgi\-bin\/musicu.fcg url script-request-body qqmusic.co
 hostname = *.y.qq.com
 
 感谢群管：Leiyiyan（羊毛大佬） 修改维护，脚本原作者：chavyleung
+
+
+
+脚本库其他脚本均搬运其他大佬
+感谢：野比大佬
+     chavyleung  大佬
+ 幸苦制作脚本！如有问题请联系我！
+我的TG群：https://t.me/jinweikeji
