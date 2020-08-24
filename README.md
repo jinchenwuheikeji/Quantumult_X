@@ -66,7 +66,7 @@ hostname=vip.video.qq.com
 
 
 
-脚本库其他脚本均搬运其他大佬
+#脚本库其他脚本均搬运其他大佬
 
 感谢：野比大佬
     chavyleung大佬
