@@ -30,3 +30,19 @@ https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? url script-reque
 hostname = api.inews.qq.com
 
 远程脚本地址：https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/txnews.js
+
+#QQ音乐
+
+[task_local]
+
+1 0 * * * qqmusic.js, tag=QQ音乐, enabled=true
+
+[rewrite_local]
+
+https:\/\/u\.y\.qq\.com\/cgi\-bin\/musicu.fcg url script-request-body qqmusic.cookie.js
+
+[mitm]
+
+hostname = *.y.qq.com
+
+感谢群管：Leiyiyan 修改维护
