@@ -45,4 +45,4 @@ https:\/\/u\.y\.qq\.com\/cgi\-bin\/musicu.fcg url script-request-body qqmusic.co
 
 hostname = *.y.qq.com
 
-感谢群管：Leiyiyan 修改维护
+感谢群管：Leiyiyan（羊毛大佬） 修改维护，脚本原作者：chavyleung
