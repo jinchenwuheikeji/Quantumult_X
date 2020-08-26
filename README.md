@@ -8,8 +8,10 @@
 
 [rewrite_local]
 
-http:\/\/api\.gaoqingdianshi\.com\/api\/v5\/sign\/signin url script-request-header dianshijia.js
-http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal url script-request-header dianshijia.js
+#电视家
+http:\/\/api\.gaoqingdianshi\.com\/api\/v5\/sign\/signin - script-request-header https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/dianshijia.js
+
+http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal - script-request-header https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/dianshijia.js
 
 #远程脚本路径：
 
