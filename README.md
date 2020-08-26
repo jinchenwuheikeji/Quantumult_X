@@ -9,9 +9,8 @@
 [rewrite_local]
 
 #电视家
-http:\/\/api\.gaoqingdianshi\.com\/api\/v5\/sign\/signin - script-request-header https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/dianshijia.js
 
-http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal - script-request-header https://raw.githubusercontent.com/jinchenwuheikeji/Quantumult_X/master/dianshijia.js
+脚本里查看
 
 #远程脚本路径：
 
