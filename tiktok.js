@@ -1,6 +1,6 @@
 /*
-   转载请注明请注明出处
-   电报群：https://t.me/baipiao_666
+   转载请注明请注明出处,借用baipiao大佬脚本库
+   电报群：https://t.me/jinweikeji
 */
 var watermark = body => {
     try {
@@ -26,7 +26,7 @@ function Follow(data) {
     }
     return data;
 }
-// 电报群：https://t.me/baipiao_666
+// 电报群：https://t.me/jinweikeji
 
 function Feed(aweme_list) {
     if (aweme_list && aweme_list.length > 0) {
